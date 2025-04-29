@@ -31,7 +31,10 @@ git clone https://github.com/vaibhav108d/todo-app.git
 cd todo-app
 
 # Open index.html in your browser
+```
+---
 ## 🌐 Live Demo
 
 **[View on GitHub Pages](https://vaibhav108d.github.io/todo-app/)**  
 This project is deployed using GitHub Pages from the `main` branch.
+---
