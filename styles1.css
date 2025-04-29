@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(22, 25, 25);
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container
+{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    /* gap: 20px;*/
+    flex-direction: column; 
+    background-color: rgb(74, 73, 85);
+    justify-content: center;
+    width: 300px;
+    /* height: 150px; */
+    /* margin:auto;
+    margin-top: 25%; */
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(170, 166, 166, 0.2);
+
+
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 500px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .input-container input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    background-color: #ebe4e4;
+    border: none;
+    border-radius: 5px;
+    color: #0b0a0a;
+    outline: none;
+  }
+  .input-container button {
+    width: 25%;
+    padding: 10px;
+    background-color: #0d0f14;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .input-container button:hover {
+    background-color: #0e0e0e83;
+    box-shadow: 0 5px 15px rgba(228, 214, 214, 0.2);
+
+  }
+  #tlist{
+    width: 88%; /* Match the width of the input-container */
+    max-width: 500px; /* Optional: Match the max-width of input-container */
+    margin: 0 auto; /* Center the list */
+    padding: 0; /* Optional: Remove default padding */
+    list-style: none;
+      
+  }
+  #tlist li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color:  rgb(104, 103, 112);
+    color: beige;
+    /* width: 100%; */
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(179, 176, 185, 0.2);
+    
+
+
+
+  }
+  #tlist li span{
+    background-color: rgb(207, 197, 223);
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #tlist li button
+  {
+    border-radius: 5px;
+    background-color: rgb(74, 31, 113);
+    padding: 5px;
+    margin: 5px; 
+    
+    border: none;
+  }
+  #tlist li button:hover{
+    background-color: rgb(59, 48, 123);
+    box-shadow: 0 5px 15px rgba(147, 145, 158, 0.2);
+  }
+  #tlist li.completed
+    {
+      text-decoration: line-through;
+      opacity: 0.7;
+
+    }
+
+
+
+
+
